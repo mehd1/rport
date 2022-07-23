@@ -75,7 +75,7 @@ failregex = 404 [0-9]+\w+ \(<HOST>\)
 # Identify password guesser
 ```
 Test the definition with
-`fail2ban-regex /var/log/rport/rportd.log /etc/fail2ban/filter.d/rport-client-connect.conf` 
+`fail2ban-regex /var/log/rport/rportd.log /etc/fail2ban/filter.d/rportd-client-connect.conf` 
 It should output something like
 ```
 Lines: 16900 lines, 0 ignored, 755 matched, 16145 missed
